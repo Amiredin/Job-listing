@@ -3,7 +3,7 @@ import Home, { homeLoader } from "./pages/Home";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/job-listing",
     element: <Home />,
     loader: homeLoader,
   },
