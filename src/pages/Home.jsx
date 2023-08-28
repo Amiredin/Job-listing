@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import JobList from "../components/JobList";
 import { fetchData } from "../../helper";
 import { useLoaderData } from "react-router-dom";
-import iconRemove from "../assets/images/icon-remove.svg";
+import iconRemove from "../assets/icon-remove.svg";
 
 const Home = () => {
   const { jobData } = useLoaderData();
